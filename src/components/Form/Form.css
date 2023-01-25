@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form > button {
+  border: none;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #144272;
+  border-radius: 0.2rem;
+}
+
