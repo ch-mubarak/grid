@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Grid = () => {
+const Grid = ({api}) => {
   return (
-    <div>Grid</div>
+    <div>{api}</div>
   )
 }
 

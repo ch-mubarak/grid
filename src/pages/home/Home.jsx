@@ -2,10 +2,10 @@ import React from "react";
 import Form from "../../components/Form/Form";
 import "./Home.css";
 
-const Home = () => {
+const Home = ({onSubmit}) => {
   return (
     <div className="home">
-      <Form />
+      <Form onSubmit={onSubmit} />
     </div>
   );
 };
